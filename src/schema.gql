@@ -1,0 +1,23 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+input CreateUserInput {
+  email: String!
+  name: String
+}
+
+type Mutation {
+  createUser(input: CreateUserInput!): User!
+  enqueueReportProcessing(reportId: String!): String!
+}
+
+type Query {
+  users: [User!]!
+}
+
+type User {
+  email: String!
+  id: ID!
+  name: String
+}
