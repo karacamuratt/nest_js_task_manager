@@ -31,8 +31,6 @@ npm install
 
 ``` bash
 DATABASE_URL="mongodb://user:password@localhost:27017/taskmanager_db?authSource=admin"
-REDIS_HOST=localhost
-REDIS_PORT=6379
 ```
 
 ### 3. Generate Prisma Client
